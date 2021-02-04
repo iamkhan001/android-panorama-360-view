@@ -9,7 +9,7 @@
 
     <pl.rjuszczyk.panorama.viewer.PanoramaGLSurfaceView
         android:id="@+id/panorama"
-        app:gyroscopeEnabled="true"
+        app:gyroscopeEnabled="false"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
