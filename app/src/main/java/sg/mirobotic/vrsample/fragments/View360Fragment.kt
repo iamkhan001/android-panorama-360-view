@@ -46,14 +46,4 @@ class View360Fragment : Fragment() {
 
     }
 
-    override fun onResume() {
-        super.onResume()
-        binding.panorama.onResume()
-    }
-
-    override fun onPause() {
-        super.onPause()
-        binding.panorama.onPause()
-    }
-
 }

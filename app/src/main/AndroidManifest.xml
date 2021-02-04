@@ -2,25 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sg.mirobotic.vrsample">
 
-    <!-- For streaming videos from the network. -->
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- For playing videos from local storage / memory card. -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-    <!-- For copying test content to local storage / memory card, saving screenshots. -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-    <!-- For accessing device camera (camera example). -->
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.autofocus" />
-
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_vr_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_vr_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
